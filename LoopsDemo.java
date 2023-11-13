@@ -38,17 +38,5 @@ public class LoopsDemo {
         for (int j = 1; j < 5; j++) {
             System.out.println("Hello for");
         }
-
-        int i, j;
-
-i = 100;
-
-j = 300;
-
-while(++i < --j);
-
-System.out.println(i);
-
-}
     }
 }
