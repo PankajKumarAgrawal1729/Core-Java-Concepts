@@ -10,8 +10,9 @@ class Human {
     }
 
     // setter : method who set the value
-    public void setAge(int a) {
-        age = a;
+    public void setAge(int age) {
+        //this is a keyword and it represent hte current calling object
+        this.age = age;
     }
 
     public String getName() {
