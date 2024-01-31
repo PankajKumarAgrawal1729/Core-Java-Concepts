@@ -18,7 +18,7 @@ public class MethodOveriding {
         // A obj = new A();
         // obj.show();
         B obj = new B();
-        obj.show();
-        obj.config();
+        obj.show();   // in B Show
+        obj.config(); // in A Config 
     }
 }
